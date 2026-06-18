@@ -1,0 +1,23 @@
+.gridTable{
+    width: 100%;
+    display: grid;
+    /*display: flex;
+    flex-wrap: wrap;
+   */
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    
+}
+.header{
+    background-color: bisque;
+}
+
+.cell{
+    padding: 10px;
+    border-right: 1px solid #ccc;
+   /*width: 33%; */
+}
